@@ -22,7 +22,7 @@
 
 | 路径 | 说明 |
 |---|---|
-| `index.html` | 单文件站点（构建产物，约 269 KB） |
+| `index.html` | 单文件站点（构建产物，约 270 KB） |
 | `manifest.json` | 知枢结构清单：章节、前置、测验、术语、卡片 |
 | `.nojekyll` | GitHub Pages 关闭 Jekyll，保证下划线目录可托管 |
 | `src/` | 源文件：引擎、样式、内容、应用与 HTML 壳 |
