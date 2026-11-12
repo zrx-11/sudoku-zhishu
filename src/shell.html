@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>数独：从规则到链 · 知枢学习系统</title>
+<meta name="description" content="16 章数独课：规则、候选数、唯一余数、隐性唯一、区块、数组、鱼形、唯一矩形、XY-Wing 与链；配交互盘面、练习场、诊断与可验证的求解器。">
+<script>
+try {
+  var _raw = localStorage.getItem('zhishu-sudoku-v1');
+  var _t = _raw ? (JSON.parse(_raw).theme || 'auto') : 'auto';
+  if (_t === 'auto') _t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', _t);
+} catch (e) {}
+</script>
+<style>
+/*__STYLES__*/
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar" class="sidebar" aria-label="课程目录"></aside>
+  <div id="scrim" class="scrim"></div>
+  <main class="main">
+    <header id="topbar" class="topbar"></header>
+    <div id="view" class="view"></div>
+    <footer class="site">
+      <span>知枢学习系统 · 数独：从规则到链</span>
+      <span>内容与求解器均为本机生成；进度存在浏览器本地。</span>
+    </footer>
+  </main>
+</div>
+<script>
+/*__ENGINE__*/
+</script>
+<script>
+/*__CONTENT__*/
+</script>
+<script>
+/*__APP__*/
+</script>
+</body>
+</html>
